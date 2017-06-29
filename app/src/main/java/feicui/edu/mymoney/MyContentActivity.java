@@ -46,7 +46,7 @@ class MyContentActivity extends Activity{
                 .subject(name)
                 .body(content)
                 .phone(tel)
-                .notifyUrl(Merchant.MERCHANT_NOTIFY_URL)
+//                .notifyUrl(Merchant.MERCHANT_NOTIFY_URL)//注意这句话必须加（只不过还没写完）
                 .build();
                  pay.startPay();
             }
